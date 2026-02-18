@@ -1,0 +1,54 @@
+.hero {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.heroContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.heroContent {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 16px;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 900;
+    color: var(--primary-color);
+    line-height: 110%;
+
+    span {
+      color: var(--secondary-color);
+    }
+  }
+
+  p {
+    font-size: 24px;
+    color: var(--color-gray-dark);
+    line-height: 150%;
+    margin-bottom: 48px;
+
+    span {
+      color: var(--color-black);
+      font-weight: 600;
+    }
+  }
+}
+
+.heroFeedbacksCustomers {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  .heroFeedbacksCustomersText {
+    display: flex;
+    flex-direction: column;
+  }
+}

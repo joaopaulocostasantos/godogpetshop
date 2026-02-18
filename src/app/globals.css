@@ -1,5 +1,21 @@
+:root {
+  /* cores */
+  --bg-hero: #f0f9ff;
+  --primary-color: #329bab;
+  --secondary-color: #085561;
+  --color-gray-dark: #424242;
+  --color-gray-light: #adadad;
+  --color-orange-light: #eba24225;
+  --color-white: #ffffff;
+  --color-black: #000000;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: var(--font-montserrat);
 }

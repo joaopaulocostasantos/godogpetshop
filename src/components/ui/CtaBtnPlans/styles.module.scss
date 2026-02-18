@@ -1,0 +1,29 @@
+.ctaButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--primary-color);
+  border: none;
+  padding: 20px 30px;
+  border-radius: 90px;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-white);
+  transition: all 0.3s ease;
+  text-decoration: none;
+
+  .icon {
+    background-color: var(--color-white);
+    padding: 8px 10px;
+    border-radius: 90px;
+    color: var(--primary-color);
+    font-size: 14px;
+  }
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+}

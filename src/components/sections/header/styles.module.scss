@@ -1,0 +1,42 @@
+.header {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 52px;
+}
+
+.logo {
+  width: 200px;
+  height: 55px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+
+  .navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    list-style: none;
+
+    a {
+      text-decoration: none;
+      color: var(--color-gray-dark);
+
+      &:hover {
+        color: var(--color-black);
+      }
+    }
+  }
+}
