@@ -80,3 +80,41 @@
     }
   }
 }
+
+// Responsividade Mobile
+@media (max-width: 425px) {
+  .hero {
+    width: 100%;
+  }
+
+  .heroContainer {
+    width: 100%;
+  }
+
+  .heroContent {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+      text-align: center;
+      font-size: 42px;
+    }
+
+    p {
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .heroImage {
+    width: fit-content;
+    max-width: 425px;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}

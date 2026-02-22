@@ -38,7 +38,12 @@ export function About() {
       </div>
 
       <div className={styles.image}>
-        <Image src={aboutImage} alt="Clínica Petshop" />
+        <Image
+          src={aboutImage}
+          alt="Clínica Petshop"
+          fill
+          style={{ objectFit: "cover" }}
+        />
       </div>
     </section>
   );

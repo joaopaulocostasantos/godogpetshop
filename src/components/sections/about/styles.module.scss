@@ -38,6 +38,12 @@
   }
 }
 
+.image {
+  position: relative;
+  width: 50%;
+  min-height: 360px;
+}
+
 // Responsividade Tablet
 @media (max-width: 768px) {
   .about {

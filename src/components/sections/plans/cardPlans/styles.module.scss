@@ -76,6 +76,7 @@
   }
 }
 
+// Responsividade Tablet
 @media (max-width: 768px) {
   .cardPlansContainer {
     width: 100%;
@@ -91,6 +92,30 @@
     h2,
     p {
       text-align: center;
+    }
+  }
+}
+
+// Responsividade Mobile
+@media (max-width: 425px) {
+  .cardPlansContainer {
+    height: 900px;
+  }
+
+  .Headline {
+    align-items: center;
+
+    h3,
+    p {
+      text-align: center;
+    }
+
+    h3 {
+      font-size: 32px;
+    }
+
+    p {
+      font-size: 16px;
     }
   }
 }

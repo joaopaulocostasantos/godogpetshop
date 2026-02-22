@@ -16,7 +16,7 @@ import { Footer } from "@/layout/footer";
 export default function Home() {
   return (
     <>
-      <section className={styles.heroSection}>
+      <section className={`${styles.heroSection}`}>
         <Container>
           <Header />
           <Hero />

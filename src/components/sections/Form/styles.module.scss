@@ -152,6 +152,7 @@
   cursor: pointer;
 }
 
+// Responsividade Tablet
 @media (max-width: 768px) {
   .formSection {
     width: 100%;
@@ -176,5 +177,18 @@
 
   .formContainer {
     width: 100%;
+  }
+}
+
+// Responsividade Mobile
+@media (max-width: 425px) {
+  .imageContainer {
+    width: 100%;
+    height: auto;
+
+    img {
+      width: 300px;
+      height: auto;
+    }
   }
 }

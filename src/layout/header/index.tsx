@@ -39,7 +39,9 @@ export function Header() {
         </nav>
 
         {/* CTA */}
-        <CtaBtn icon={<FaCalendarAlt />} innerText="Agendar horário agora" />
+        <div className={styles.cta}>
+          <CtaBtn icon={<FaCalendarAlt />} innerText="Agendar horário agora" />
+        </div>
       </div>
     </header>
   );

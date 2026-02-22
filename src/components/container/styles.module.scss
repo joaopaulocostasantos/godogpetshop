@@ -4,10 +4,19 @@
   margin: 0 auto;
 }
 
+// Responsividade Tablet
 @media (max-width: 768px) {
   .container {
     width: 100%;
-    max-width: 768px;
     padding: 0 32px;
+  }
+}
+
+// Responsividade Mobile
+@media (max-width: 425px) {
+  .container {
+    width: 100%;
+    padding: 0 16px;
+    margin: 0 auto;
   }
 }

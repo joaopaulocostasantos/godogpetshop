@@ -50,3 +50,19 @@
     display: none;
   }
 }
+
+// Responsividade Mobile
+@media (max-width: 425px) {
+  .logo {
+    width: 100%;
+    display: flex;
+    width: 288px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+  .cta {
+    display: none;
+  }
+}

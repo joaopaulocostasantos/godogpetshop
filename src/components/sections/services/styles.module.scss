@@ -35,8 +35,24 @@
   gap: 10px;
 }
 
+// Responsividade Tablet
 @media (max-width: 768px) {
   .cardContainer {
     grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  .headline {
+    .title {
+      font-size: 36px;
+      text-align: center;
+      font-weight: 800px;
+      line-height: 110%;
+
+      span {
+        color: var(--secondary-color);
+      }
+    }
   }
 }
