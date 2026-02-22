@@ -1,0 +1,33 @@
+.questionContainer {
+  width: 100%;
+  max-width: 1064px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  cursor: pointer;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  border-bottom: 0.5px solid var(--ColorGrayLight, #adadad86);
+  gap: 20px;
+}
+
+.question {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: transparent;
+  border: none;
+
+  h5 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+}
+
+.res {
+  width: 100%;
+  font-size: 20px;
+}

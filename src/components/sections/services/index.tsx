@@ -6,15 +6,15 @@ import { RiHomeSmileFill, RiCustomerServiceFill } from "react-icons/ri";
 import { Scissors } from "lucide-react";
 
 // Components
-import { Bagde } from "@/components/ui/Bagde";
-import { CardPlan } from "./cardPlan";
+import { Badge } from "@/components/ui/Badge";
+import { CardPlan } from "./CardPlan";
 import { CtaBtnPlans } from "@/components/ui/CtaBtnPlans";
 
 export function Services() {
   return (
     <section className={styles.services} id="services">
       <div className={styles.headline}>
-        <Bagde innerText="Nossos serviços" />
+        <Badge innerText="Nossos serviços" />
         <h2 className={styles.title}>
           <span>Tudo o que seu pet precisa</span> em um só lugar
         </h2>

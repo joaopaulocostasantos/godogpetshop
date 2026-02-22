@@ -1,11 +1,10 @@
 import styles from "./styles.module.scss";
 
-// Interfaces
-interface BagdeProps {
+interface BadgeProps {
   innerText: string;
 }
 
-export function Bagde({ innerText }: BagdeProps) {
+export function Badge({ innerText }: BadgeProps) {
   return (
     <div className={styles.badge}>
       <span>{innerText}</span>

@@ -11,7 +11,7 @@ import imageCustomers from "@/assets/imageCustomers.png";
 import iconPlans from "@/assets/iconPlans.png";
 
 // compeonentes
-import { CtaBtnPlans } from "@/components/ui/CtaBtnPlans";
+import { CtaBtnHero } from "@/components/ui/CtaBtnHero";
 
 export function Hero() {
   return (
@@ -33,7 +33,7 @@ export function Hero() {
           </p>
 
           {/* CTA */}
-          <CtaBtnPlans
+          <CtaBtnHero
             icon={<Image src={iconPlans} alt="Ícone de planos" />}
             innerText="Conheça nossos planos"
           />

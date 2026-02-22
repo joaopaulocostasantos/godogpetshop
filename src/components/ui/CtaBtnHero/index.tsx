@@ -7,9 +7,9 @@ interface CtaButtonProps {
   innerText?: string;
 }
 
-export function CtaBtnPlans({ icon, innerText }: CtaButtonProps) {
+export function CtaBtnHero({ icon, innerText }: CtaButtonProps) {
   return (
-    <Link className={styles.ctaButton} href={"#formLead"}>
+    <Link className={styles.ctaButton} href={"#plans"}>
       <span className={styles.icon}>{icon}</span>
       {innerText || "Conheça nossos planos"}
     </Link>

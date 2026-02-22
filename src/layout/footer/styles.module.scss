@@ -1,0 +1,38 @@
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .insta,
+    .linkedin,
+    .twitter,
+    .whatsapp {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      border-radius: 90px;
+      background-color: var(--color-white);
+      color: var(--secondary-color);
+      font-size: 21px;
+      cursor: pointer;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    color: var(--color-white);
+  }
+
+  a {
+    font-weight: bold;
+    color: var(--color-white);
+    text-decoration: none;
+  }
+}

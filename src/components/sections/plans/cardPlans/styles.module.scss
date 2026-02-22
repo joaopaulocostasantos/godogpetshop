@@ -1,0 +1,77 @@
+.cardPlans {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardPlansContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  gap: 48px;
+  height: 1043px;
+}
+
+.cta {
+  padding: 0px 30px;
+}
+
+.Headline {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+  background-color: var(--primary-color);
+  padding: 40px 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  h3 {
+    color: var(--color-white);
+    font-size: 48px;
+  }
+
+  p {
+    color: var(--color-white);
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-gray-dark);
+
+  p {
+    font-size: 36px;
+    font-weight: 500;
+
+    span {
+      font-size: 96px;
+      font-weight: 800;
+    }
+  }
+}
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+  padding: 0px 30px;
+  list-style: none;
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 24px;
+
+    .checkIcon {
+      color: var(--primary-color);
+    }
+  }
+}

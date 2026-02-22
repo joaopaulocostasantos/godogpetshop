@@ -1,0 +1,34 @@
+:root {
+  /* fallback if CSS variables are not set elsewhere */
+}
+
+.heroSection {
+  width: 100%;
+  background: var(--bg-hero);
+  padding: 5px 0px 100px 0px;
+  display: flex;
+  align-items: center;
+}
+
+.FormSection {
+  width: 100%;
+  background: var(--secondary-color);
+  padding: 50px 0;
+  margin-top: 80px;
+}
+
+.Footerection {
+  width: 100%;
+  background: var(--secondary-color);
+  padding: 30px 0;
+  margin-top: 100px;
+}
+/* Optional utility if you need a full-bleed element inside a constrained parent */
+.fullBleed {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+}
