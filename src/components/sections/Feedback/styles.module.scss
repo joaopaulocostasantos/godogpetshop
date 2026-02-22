@@ -35,3 +35,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
+// Responsividade tablet
+@media (max-width: 768px) {
+  .feedbacks {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

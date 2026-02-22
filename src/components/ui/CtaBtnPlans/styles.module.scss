@@ -27,3 +27,11 @@
     background-color: var(--secondary-color);
   }
 }
+
+// Responsividade Tablet
+@media (max-width: 768px) {
+  .ctaButton {
+    margin: 0 auto;
+    width: fit-content;
+  }
+}

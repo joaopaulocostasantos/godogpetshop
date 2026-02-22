@@ -151,3 +151,30 @@
   border-radius: 8px;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .formSection {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .imageContainer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 44px;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 578px;
+      height: auto;
+      align-self: center;
+    }
+  }
+
+  .formContainer {
+    width: 100%;
+  }
+}

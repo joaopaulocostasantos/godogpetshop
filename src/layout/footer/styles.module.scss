@@ -36,3 +36,11 @@
     text-decoration: none;
   }
 }
+
+// Responsividade Tablet
+@media (max-width: 768px) {
+  .footerContainer {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

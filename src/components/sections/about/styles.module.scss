@@ -30,9 +30,43 @@
     font-size: 20px;
     font-weight: 400;
     text-align: justify;
+    margin-bottom: 24px;
 
     strong {
       font-weight: bold;
     }
+  }
+}
+
+// Responsividade Tablet
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+  }
+
+  .content {
+    width: 100%;
+    align-items: center;
+
+    h2 {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 42px;
+    }
+  }
+
+  .image {
+    margin-top: 62px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
   }
 }

@@ -34,3 +34,9 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
 }
+
+@media (max-width: 768px) {
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
