@@ -1,7 +1,7 @@
-export { About } from "./about";
-export { Hero } from "./Hero";
-export { Plans } from "./Plans";
-export { Services } from "./Services";
-export { FeedBacks } from "./Feedback";
-export { Form } from "./Form";
-export { Faq } from "./Faq";
+export { About } from "@/components/sections/about";
+export { Hero } from "@/components/sections/Hero";
+export { Plans } from "@/components/sections/Plans";
+export { Services } from "@/components/sections/Services";
+export { FeedBacks } from "@/components/sections/Feedback";
+export { Form } from "@/components/sections/Form";
+export { Faq } from "@/components/sections/Faq";
