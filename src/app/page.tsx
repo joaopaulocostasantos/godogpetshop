@@ -1,6 +1,6 @@
 // components
 import { Container } from "@/components/Container";
-import { Header } from "@/layout/header";
+import { Header } from "@/layout/Header";
 import {
   Hero,
   Services,
@@ -9,9 +9,9 @@ import {
   About,
   Form,
   Faq,
-} from "@/components/sections";
+} from "@/components/Sections";
 import styles from "./page.module.scss";
-import { Footer } from "@/layout/footer";
+import { Footer } from "@/layout/Footer";
 
 export default function Home() {
   return (
