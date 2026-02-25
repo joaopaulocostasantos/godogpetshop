@@ -11,6 +11,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: start;
+  width: 50%;
 
   h2 {
     width: 524px;
@@ -39,9 +40,7 @@
 }
 
 .image {
-  position: relative;
   width: 50%;
-  min-height: 360px;
 }
 
 // Responsividade Tablet
