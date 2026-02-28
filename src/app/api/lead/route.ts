@@ -6,19 +6,35 @@ export async function POST(req: Request) {
     const supabase = getSupabaseAdminClient();
     const body = await req.json();
 
-    const { fullname, email, phone, service } = body;
+    const { fullname, email, phone, service } = body ?? {};
 
-    // 1. Salvar no Supabase
+    if (!fullname || !email || !phone || !service) {
+      return NextResponse.json(
+        { error: "Preencha todos os campos obrigatorios." },
+        { status: 400 },
+      );
+    }
+
     const { error } = await supabase
       .from("leads")
       .insert([{ fullname, email, phone, service }]);
 
-    if (error) throw error;
+    if (error) {
+      console.error("Supabase insert error:", error);
+      return NextResponse.json(
+        { error: error.message || "Falha ao salvar no banco de dados." },
+        { status: 500 },
+      );
+    }
 
-    // 2. Integração Google removida — apenas confirmar sucesso após salvar no Supabase
     return NextResponse.json({ success: true });
-  } catch (err: any) {
-    console.error(err);
-    return NextResponse.json({ error: "Erro ao salvar lead" }, { status: 500 });
+  } catch (err: unknown) {
+    const message =
+      err instanceof Error
+        ? err.message
+        : "Erro interno ao processar a solicitacao.";
+
+    console.error("POST /api/lead error:", err);
+    return NextResponse.json({ error: message }, { status: 500 });
   }
 }
