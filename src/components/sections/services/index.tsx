@@ -7,7 +7,7 @@ import { Scissors } from "lucide-react";
 
 // Components
 import { Badge } from "@/components/ui/Badge";
-import { CardPlan } from "./CardPlan";
+import { CardPlan } from "./cardPlan";
 import { CtaBtnPlans } from "@/components/ui/CtaBtnPlans";
 
 export function Services() {
