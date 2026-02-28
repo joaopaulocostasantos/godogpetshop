@@ -1,16 +1,16 @@
 import styles from "./page.module.scss";
 
 // components
-import { Container } from "@/components/Container";
-import { Header } from "@/layout/Header";
-import { Hero } from "@/components/Sections/Hero";
-import { Services } from "@/components/Sections/Services";
-import { Plans } from "@/components/Sections/Plans";
-import { FeedBacks } from "@/components/Sections/Feedback";
-import { About } from "@/components/Sections/About";
-import { Form } from "@/components/Sections/Form";
-import { Faq } from "@/components/Sections/Faq";
-import { Footer } from "@/layout/Footer";
+import { Container } from "@/components/container";
+import { Header } from "@/layout/header";
+import { Hero } from "@/components/sections/hero";
+import { Services } from "@/components/sections/services";
+import { Plans } from "@/components/sections/plans";
+import { FeedBacks } from "@/components/sections/Feedback";
+import { About } from "@/components/sections/about";
+import { Form } from "@/components/sections/Form";
+import { Faq } from "@/components/sections/Faq";
+import { Footer } from "@/layout/footer";
 
 export default function Home() {
   return (
